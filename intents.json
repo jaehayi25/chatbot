@@ -16,11 +16,11 @@
         },
         {"tag": "bored",
          "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something", "Recommend things to do"],
-         "responses": ["Hey, want to do something fun?", "Hey, should we play a game?", "Looking to try new things? \n Listen to K-pop: Blue - BIGBANG, Lonely - 2NE1 \n Read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson"],
+         "responses": ["If you're bored... should we play a game?", "Looking to try new things? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1 \nRead a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson"],
          "context": [""]
         },
         {"tag": "happy",
-         "patterns": ["good","doing fine","having fun"],
+         "patterns": ["good","doing fine","I'm having fun"],
          "responses": ["Ooo what's keeping you happy?", "What's putting you in a good mood?"],
          "context": [""]
         },
@@ -30,7 +30,7 @@
          "context": [""]
         },
         {"tag": "options",
-         "patterns": ["What do you do", "What you can do?", "What kind of game?", "Sure", "Yes", "Let's do something", "Let's play","Let's have fun"],
+         "patterns": ["What do you do", "What you can do?", "What kind of game?", "Sure", "Yes"],
          "responses": ["We can play a number guessing game. Guess a number: "],
          "context": [""]
         },
@@ -39,14 +39,19 @@
          "responses": ["Thanks!"],
          "context": [""]
         },
-        {"tag": "reply",
-         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?"],
-         "responses": ["Sorry, not today","Sure, how?"],
+        {"tag": "request",
+         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play"],
+         "responses": ["Sorry, not today","Sure, how?","Okay, I'm ready."],
          "context": [""]
         },
         {"tag": "philosophical",
          "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?"],
-         "responses": ["The truth is obvious... but I will leave the discovery to you","Your question is too easy that I refuse to answer it","Calculating in 0.000001 seconds. Answer found. Sorry, but there was a verification error: ANSWER DENIED TO HUMAN ACCESS"],
+         "responses": ["The truth is obvious... but I will leave the discovery to you","Your question is too easy...","Idk lol"],
+         "context": [""]
+        },
+        {"tag": "insult",
+         "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid"],
+         "responses": ["No you are","Yeah I know you are","Only some can understand the extent of my knowledge."],
          "context": [""]
         }
    ]
