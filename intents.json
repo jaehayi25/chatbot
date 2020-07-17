@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up"],
-         "responses": ["Hey", "Nice to see you", "Hey, what's up?", "Hi, what's going on?","Hi, how are you?"],
+         "responses": ["Hey", "Nice to see you", "Hey, what's up?", "Hi, what's going on?","Hi, how are you?","Hey, how do you feel?"],
          "context": [""]
         },
         {"tag": "goodbye",
@@ -40,12 +40,12 @@
          "context": [""]
         },
         {"tag": "reply",
-         "patterns": ["Let's go to","Want to", "Should we"],
+         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?"],
          "responses": ["Sorry, not today","Sure, how?"],
          "context": [""]
         },
         {"tag": "philosophical",
-         "patterns": ["What is life?","Will I","What is the meaning of","Will it rain today?","How do","Where is","How to","When","Does"],
+         "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?"],
          "responses": ["The truth is obvious... but I will leave the discovery to you","Your question is too easy that I refuse to answer it","Calculating in 0.000001 seconds. Answer found. Sorry, but there was a verification error: ANSWER DENIED TO HUMAN ACCESS"],
          "context": [""]
         }
