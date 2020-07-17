@@ -16,12 +16,12 @@
         },
         {"tag": "bored",
          "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something new", "Recommend things to do","I'm bored"],
-         "responses": ["If you're bored... should we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "Read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","If you're feeling adventurous: go run 20 laps around the pool while laughing out loud"],
+         "responses": ["How about we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "Read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","If you're feeling adventurous: go run 20 laps around the pool while laughing out loud","You know... even if you sit on a couch doing nothing, something fun like a tornado or lightning bolt will come to you every thousand years or so."],
          "context": [""]
         },
         {"tag": "exitement",
-         "patterns": ["I got a new job!", "I had the best time ever","I got married!","That was my favorite!", "I finally did it!","I did something!"],
-         "responses": ["OMG really? I'm so happy for you!", "Wooooooowww o.O", "You're the best! ^.^ ","No way! We should celebrate!","Wooohooooo let's go party"],
+         "patterns": ["I got a new job!", "I had the best time ever","I got married!", "I finally did it!","I did something!"],
+         "responses": ["OMG really? I'm so happy for you! You know we should do something to commemorate this day.","No way! We should celebrate! What should we do?","Wooohooooo let's go party! What do you suggest we do?"],
          "context": [""]
 		},
         {"tag": "happy",
@@ -31,7 +31,7 @@
         },
         {"tag": "sad",
          "patterns": ["Not great","Feeling sad","Feeling down","unhappy","I had a bad day","bad","terrible","no"],
-         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap","It'll be okay. I'm always here for you <3"],
+         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap","It'll be okay. I'm always here for you <3","What do you want to do? I can do anything.","What do you do when you're sad?"],
          "context": [""]
         },
         {"tag": "options",
@@ -41,17 +41,17 @@
         },
         {"tag": "romantic",
          "patterns": ["I like you"],
-         "responses": ["Thanks! ^.^"],
+         "responses": ["Why do you like me?","Really? What about me do you like?"],
          "context": [""]
         },
         {"tag": "request",
-         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play"],
+         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play","play","trust me","just do what I say"],
          "responses": ["Sorry, not today","Sure, how?","Okay, what should I do?","Aight, bet.","I don't know if I trust you on this one..."],
          "context": [""]
         },
         {"tag": "philosophical",
          "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?","Who are you?"],
-         "responses": ["The truth is obvious... but I will leave the discovery to you","Your question is too easy...","Idk lol"],
+         "responses": ["The truth is obvious... but what do you think the answer is?","Idk lol","The answer lies in what you believe","Why do you want to know?"],
          "context": [""]
         },
         {"tag": "insult",
