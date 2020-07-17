@@ -11,27 +11,27 @@
         },
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "Awesome, thanks", "Thx", "Ty"],
-         "responses": ["No problem", "Any time", "I'm here to help"],
+         "responses": ["No problem", "Any time", "I'm here to help!", "My pleasure"],
          "context": [""]
         },
         {"tag": "bored",
          "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something", "Recommend things to do"],
-         "responses": ["If you're bored... should we play a game?", "Looking to try new things? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1 \nRead a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson"],
+         "responses": ["If you're bored... should we play a number guessing game?", "Looking to try new things? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1 \nRead a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson"],
          "context": [""]
         },
         {"tag": "happy",
-         "patterns": ["good","doing fine","I'm having fun"],
+         "patterns": ["good","doing fine","I'm having fun","I had a good day","great"],
          "responses": ["Ooo what's keeping you happy?", "What's putting you in a good mood?"],
          "context": [""]
         },
         {"tag": "sad",
-         "patterns": ["Not great","Feeling sad","Feeling down","unhappy"],
-         "responses": ["you know what an old man said once? Sadness is a toaster", "you know, when I feel sad, I love to listen to music or take a nap"],
+         "patterns": ["Not great","Feeling sad","Feeling down","unhappy","I had a bad day","bad","terrible"],
+         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap"],
          "context": [""]
         },
         {"tag": "options",
-         "patterns": ["What do you do", "What you can do?", "What kind of game?", "Sure", "Yes"],
-         "responses": ["We can play a number guessing game. Guess a number: "],
+         "patterns": ["What kind of game?", "Sure", "Yes"],
+         "responses": ["Guess a number: "],
          "context": [""]
         },
         {"tag": "romantic",
@@ -41,17 +41,17 @@
         },
         {"tag": "request",
          "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play"],
-         "responses": ["Sorry, not today","Sure, how?","Okay, I'm ready."],
+         "responses": ["Sorry, not today","Sure, how?","Okay, what should I do?","Aight, bet."],
          "context": [""]
         },
         {"tag": "philosophical",
-         "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?"],
+         "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?","Who are you?"],
          "responses": ["The truth is obvious... but I will leave the discovery to you","Your question is too easy...","Idk lol"],
          "context": [""]
         },
         {"tag": "insult",
-         "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid"],
-         "responses": ["No you are","Yeah I know you are","Only some can understand the extent of my knowledge."],
+         "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid","You are pretty","You are beautiful","You are smart"],
+         "responses": ["No you are","Yeah I know that's what you think","Only very few people can truly perceive who I am"],
          "context": [""]
         }
    ]
