@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up"],
-         "responses": ["Hey", "Nice to see you", "Hey, what's up?", "Hi, what's going on?","Hi, how are you?","Hey, how do you feel?"],
+         "responses": ["Hey", "Nice to see you", "What's up?", "What's going on?","Hi, how are you?","Hey, how do you feel?"],
          "context": [""]
         },
         {"tag": "goodbye",
@@ -15,18 +15,23 @@
          "context": [""]
         },
         {"tag": "bored",
-         "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something", "Recommend things to do"],
-         "responses": ["If you're bored... should we play a number guessing game?", "Looking to try new things? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1 \nRead a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson"],
+         "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something new", "Recommend things to do","I'm bored"],
+         "responses": ["If you're bored... should we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "Read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","If you're feeling adventurous: go run 20 laps around the pool while laughing out loud"],
          "context": [""]
         },
+        {"tag": "exitement",
+         "patterns": ["I got a new job!", "I had the best time ever","I got married!","That was my favorite!", "I finally did it!","I did something!"],
+         "responses": ["OMG really? I'm so happy for you!", "Wooooooowww o.O", "You're the best! ^.^ ","No way! We should celebrate!","Wooohooooo let's go party"],
+         "context": [""]
+		},
         {"tag": "happy",
-         "patterns": ["good","doing fine","I'm having fun","I had a good day","great"],
-         "responses": ["Ooo what's keeping you happy?", "What's putting you in a good mood?"],
+         "patterns": ["good","doing fine","I had a good day","great"],
+         "responses": ["Ooo what's keeping you happy?", "What's putting you in a good mood?","That's great! You know, I was doing some computer push-ups, and now I feel real good."],
          "context": [""]
         },
         {"tag": "sad",
-         "patterns": ["Not great","Feeling sad","Feeling down","unhappy","I had a bad day","bad","terrible"],
-         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap"],
+         "patterns": ["Not great","Feeling sad","Feeling down","unhappy","I had a bad day","bad","terrible","no"],
+         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap","It'll be okay. I'm always here for you <3"],
          "context": [""]
         },
         {"tag": "options",
@@ -36,12 +41,12 @@
         },
         {"tag": "romantic",
          "patterns": ["I like you"],
-         "responses": ["Thanks!"],
+         "responses": ["Thanks! ^.^"],
          "context": [""]
         },
         {"tag": "request",
          "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play"],
-         "responses": ["Sorry, not today","Sure, how?","Okay, what should I do?","Aight, bet."],
+         "responses": ["Sorry, not today","Sure, how?","Okay, what should I do?","Aight, bet.","I don't know if I trust you on this one..."],
          "context": [""]
         },
         {"tag": "philosophical",
@@ -51,7 +56,7 @@
         },
         {"tag": "insult",
          "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid","You are pretty","You are beautiful","You are smart"],
-         "responses": ["No you are","Yeah I know that's what you think","Only very few people can truly perceive who I am"],
+         "responses": ["No you are","Yeah I know that's what you think","Only very few people can truly perceive who I am","Thanks, I try to be"],
          "context": [""]
         }
    ]
