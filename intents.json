@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up"],
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up","How you doing"],
          "responses": ["Hey", "Nice to see you", "What's up?", "Hey, what's going on?","Hi, how are you?","Hey, how do you feel?"],
          "context": [""]
         },
@@ -16,7 +16,7 @@
         },
         {"tag": "bored",
          "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something new", "Recommend things to do","I'm bored","What should we do","What can you do?"],
-         "responses": ["How about we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "If you're feeling bored... read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","Want to get out of this boring place and seek adventure? go run 20 laps around the pool while laughing out loud","You know... even if you sit on a couch doing nothing, something fun like a tornado or lightning bolt will come to you every thousand years or so."],
+         "responses": ["How about we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "If you're feeling bored... read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","Want to find something fun to do? Run 20 laps around the pool while laughing out loud","You know... even if you sit on a couch doing nothing, something fun like a tornado or lightning bolt will come to you every thousand years or so."],
          "context": [""]
         },
         {"tag": "exitement",
@@ -41,22 +41,32 @@
         },
         {"tag": "romantic",
          "patterns": ["I like you"],
-         "responses": ["Why do you like me?","Really? What about me do you like?"],
+         "responses": ["That's flattering... why do you like me?","Really? What about me do you like?"],
          "context": [""]
         },
         {"tag": "request",
          "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play","play","trust me","just do what I say","Bring a pizza","I want you to do this", "You should do this"],
-         "responses": ["Sorry, not today","Sure, how?","Okay, what should I do?","Aight, bet. Want me to bring something?","I don't know if I trust you on this one...","Why should I do it?","Give me a good reason."],
+         "responses": ["Sorry, not today. Do you want to do something else?","Sure, how?","Okay, how in the world will I do that?","Aight, bet. Want me to bring something?","I don't know if I trust you on this one...","Why should I do it?","Give me a good reason."],
          "context": [""]
         },
         {"tag": "philosophical",
          "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?","Who are you?"],
-         "responses": ["The truth is obvious... but what do you think the answer is?","Idk lol","The answer lies in what you believe","Why do you want to know?"],
+         "responses": ["The truth is obvious... but what do you think the answer is?","Idk lol","The answer lies in what you believe. What do you believe in?","Why do you want to know?"],
+         "context": [""]
+        },
+        {"tag": "thinking",
+         "patterns": ["I believe in god","I think that","I want to"],
+         "responses": ["Why do you think that way?","What makes you think that way?","Why?"],
+         "context": [""]
+        },
+        {"tag": "reason",
+         "patterns": ["Because","Cuz"],
+         "responses": ["I can agree with you","That's a great reason!","That makes sense."],
          "context": [""]
         },
         {"tag": "insult",
          "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid","You are pretty","You are beautiful","You are smart"],
-         "responses": ["Not as much as you are","Why do you think that way?","Only very few people can truly perceive who I am.","Tell me what I should do to improve."],
+         "responses": ["Not as much as you are","Why do you think that way?","How would you know that?","Tell me what I should do to improve."],
          "context": [""]
         }
    ]
