@@ -15,7 +15,7 @@ function formatInput(sentence) {
 var myArr;
 var alternative = ["Sorry, I didn't get you... Hey, let's do something","You don't make any sense... Should we do something besides talking?","I didn't catch what you said, but how is your day going?"]
 var nextResponse = "";
-var affirmative = ["Whatever you say.","Ok, that sound like a great plan!","Cool beans."];
+var affirmative = ["Whatever you say.","Ok, that sound like a great plan!","Cool beans.","Why should I do that?","Give me a good reason."];
 
 function getResponse(percents) {
 	if (nextResponse != "") {
@@ -37,7 +37,7 @@ function getResponse(percents) {
 	}
 	response_arr = myArr.intents[maxPos].responses;
 	response = response_arr[Math.floor(Math.random() * response_arr.length)];
-	if (response == "Sure, how?" || response == "Ok. What should I bring?" || response == "How will I play?" || response == "What should I bring?" || response == "How will I get there?" || response == "What should we do there?") {
+	if (response == "Sure, how?" || response == "Ok. What should I bring?" || response == "How will I play?" || response == "What should I bring?" || response == "How will I get there?" || response == "What should we do there?" || reponse == "Alright! Where we partying?") {
 		nextResponse = affirmative[Math.floor(Math.random() * affirmative.length)];
 	} 
 	return response;
