@@ -1,12 +1,12 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up","How you doing"],
-         "responses": ["Hey", "Nice to see you", "What's up?", "Hey, what's going on?","Hi, how are you?","Hey, how do you feel?"],
+         "responses": ["Hey buddy! What should we do?", "Nice to see you. Should we hang out?", "What's up? Let's have some fun! What do you say?", "Hey, long time no see! Should we go somewhere?","Hi! What should we do?"],
          "context": [""]
         },
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Laters","bye","good night"],
+         "responses": ["See you!","Laters","Bye.","Good night"],
          "context": [""]
         },
         {"tag": "thanks",
@@ -15,28 +15,33 @@
          "context": [""]
         },
         {"tag": "bored",
-         "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something new", "Recommend things to do","I'm bored","What should we do","What can you do?"],
-         "responses": ["How about we play a number guessing game?", "Looking for something new? \nListen to K-pop: Blue - BIGBANG, Lonely - 2NE1", "If you're feeling bored... read a funny book: How To - Randall Munroe, A Walk in the Woods - Bill Bryson","Want to find something fun to do? Run 20 laps around the pool while laughing out loud","You know... even if you sit on a couch doing nothing, something fun like a tornado or lightning bolt will come to you every thousand years or so."],
+         "patterns": ["Not much","Nothing","Not a lot","Pretty bored","What should I do?", "Tell me something new", "Recommend things to do","I'm bored"],
+         "responses": ["Hey, should we play a sport?", "Should we go on vacay?"],
          "context": [""]
         },
-        {"tag": "exitement",
+        {"tag": "excitement",
          "patterns": ["I got a new job!", "I had the best time ever","I got married!", "I finally did it!","I did something!"],
-         "responses": ["OMG really? I'm so happy for you! You know we should do something to commemorate this day.","No way! We should celebrate! What should we do?","Wooohooooo let's go party! What do you suggest we do?"],
+         "responses": ["OMG really? I'm so happy for you! Should we do something to celebrate?","No way! We should celebrate! What should we do?","Wooohooooo let's go party! What do you suggest we do?"],
          "context": [""]
 		},
         {"tag": "happy",
          "patterns": ["good","doing fine","I had a good day","great"],
-         "responses": ["Ooo what's keeping you happy?", "What's putting you in a good mood?","That's great! You know, I went on a run, and now I feel real good."],
+         "responses": ["I want to have a fun time too... Hey, you want to do something?", "What's putting you in a good mood?"],
          "context": [""]
         },
         {"tag": "sad",
          "patterns": ["Not great","Feeling sad","Feeling down","unhappy","I had a bad day","bad","terrible","no"],
-         "responses": ["You know what an old man said once? Sadness is a toaster", "You know, when I feel sad, I love to listen to music or take a nap","It'll be okay. I'm always here for you <3","What do you want to do? I can do anything.","What do you do when you're sad?"],
+         "responses": ["That's okay. You want to fly across the world?", "Hey...we should do something to have fun!","Do you want to do something to take your mind off?"],
          "context": [""]
         },
-        {"tag": "options",
-         "patterns": ["What kind of game?", "Sure", "Yes"],
-         "responses": ["Guess a number: "],
+        {"tag": "affirmative",
+         "patterns": ["Sure", "Yes","Ok","Yeah","Alright","Aight","okay"],
+         "responses": ["Ok, make a suggestion!","Ok, well, anything you want to do, I'll do.","Alright boss. What should we do?"],
+         "context": [""]
+        },
+        {"tag": "confused",
+         "patterns": ["What can you do?", "Do you do anything?","What should we do"],
+         "responses": ["I can do anything. Do you want to go somewhere, party all night, or play something?","We can go to hawaii, take a walk, or whatever you want to do."],
          "context": [""]
         },
         {"tag": "romantic",
@@ -45,28 +50,43 @@
          "context": [""]
         },
         {"tag": "request",
-         "patterns": ["Let's go to hawaii.","Want to go out?", "Should we walk?","Let's do something","Let's play","play","trust me","just do what I say","Bring a pizza","I want you to do this", "You should do this"],
-         "responses": ["Sorry, not today. Do you want to do something else?","Sure, how?","Okay, how in the world will I do that?","Aight, bet. Want me to bring something?","I don't know if I trust you on this one...","Why should I do it?","Give me a good reason."],
+         "patterns": ["Let's do something","Just do what I say","I want you to do this", "You should do this"],
+         "responses": ["Sure, how?","Ok. What should I bring?"],
+         "context": [""]
+        },
+        {"tag": "sports",
+         "patterns": ["play tennis","play soccer","play baseball","play basketball","play bowling","play golf","play volleyball","Let's play"],
+         "responses": ["Ok, I'll bring the ball","Cool! Come over to my house! I have a private court, food, drinks, and everything.","Ok, I'll bring the Whacker Macker 2000"],
+         "context": [""]
+        },
+        {"tag": "party",
+         "patterns": ["Let's party","Let's hang out","Have some fun"],
+         "responses": ["Alright! Where we partying?","Ok! I'll bring some of my friends over."],
+         "context": [""]
+        },
+        {"tag": "places",
+         "patterns": ["go to park","go to movies","hike moutain","go to beach","go to ocean","jump cliff","Let's go to hawaii", "Should we walk?","Want to go out?"],
+         "responses": ["Ok, I'll bring my private jet.","Alright, cool. I'll bring my portable ping pong table!","Ok, I'll bring my nuclear submarine in case we need it"],
          "context": [""]
         },
         {"tag": "philosophical",
          "patterns": ["What is life?","Will I die?","What is the meaning of","Will it rain today?","Who are you?"],
-         "responses": ["The truth is obvious... but what do you think the answer is?","Idk lol","The answer lies in what you believe. What do you believe in?","Why do you want to know?"],
+         "responses": ["The truth is obvious... but what do you think the answer is?","Idk, but should we do something fun?","The answer lies in what you believe. What do you believe in?","Why do you want to know?"],
          "context": [""]
         },
         {"tag": "thinking",
-         "patterns": ["I believe in god","I think that","I want to"],
-         "responses": ["Why do you think that way?","What makes you think that way?","Why?"],
+         "patterns": ["I believe in god","I think that"],
+         "responses": ["Why do you think that way?","What makes you think that way?"],
          "context": [""]
         },
         {"tag": "reason",
          "patterns": ["Because","Cuz"],
-         "responses": ["I can agree with you","That's a great reason!","That makes sense."],
+         "responses": ["True.","You're right."],
          "context": [""]
         },
         {"tag": "insult",
          "patterns": ["You're dumb","This is dumb","This is creepy","This is weird","You're a robot","You're fake","You're stupid","You are pretty","You are beautiful","You are smart"],
-         "responses": ["Not as much as you are","Why do you think that way?","How would you know that?","Tell me what I should do to improve."],
+         "responses": ["Not as much as you are","What makes you think that?","How would you know that?","Tell me what I should do to improve."],
          "context": [""]
         }
    ]
