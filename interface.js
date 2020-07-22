@@ -37,7 +37,7 @@ function getResponse(percents) {
 	}
 	response_arr = myArr.intents[maxPos].responses;
 	response = response_arr[Math.floor(Math.random() * response_arr.length)];
-	if (response == "Sure, how?" || response == "Ok. What should I bring?" || response == "How will I play?" || response == "What should I bring?" || response == "How will I get there?" || response == "What should we do there?" || reponse == "Alright! Where we partying?") {
+	if (response == "Sure, how?" || response == "Ok. What should I bring?" || response == "How will I play?" || response == "What should I bring?" || response == "How will I get there?" || response == "What should we do there?" || response == "Alright! Where we partying?") {
 		nextResponse = affirmative[Math.floor(Math.random() * affirmative.length)];
 	} 
 	return response;
