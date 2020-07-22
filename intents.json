@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello","what's up","How you doing"],
-         "responses": ["Hey buddy! What should we do?", "Nice to see you. Should we hang out?", "What's up? Let's have some fun! What do you say?", "Hey, long time no see! Should we go somewhere?","Hi! What should we do?"],
+         "responses": ["Hey buddy! What should we do?", "Nice to see you. Want to hang out?", "What's up? Let's do something.", "Hey, long time no see! Shall we go somewhere?","Hi! What should we do?"],
          "context": [""]
         },
         {"tag": "goodbye",
@@ -56,7 +56,7 @@
         },
         {"tag": "sports",
          "patterns": ["play tennis","play soccer","play baseball","play basketball","play bowling","play golf","play volleyball","Let's play"],
-         "responses": ["Ok, I'll bring the ball","Cool! Come over to my house! I have a private court, food, drinks, and everything.","Ok, I'll bring the Whacker Macker 2000"],
+         "responses": ["How will I play?","Ok. Want me to bring anything?","Ok, I'll bring the Whacker Macker 2000"],
          "context": [""]
         },
         {"tag": "party",
@@ -66,7 +66,7 @@
         },
         {"tag": "places",
          "patterns": ["go to park","go to movies","hike moutain","go to beach","go to ocean","jump cliff","Let's go to hawaii", "Should we walk?","Want to go out?"],
-         "responses": ["Ok, I'll bring my private jet.","Alright, cool. I'll bring my portable ping pong table!","Ok, I'll bring my nuclear submarine in case we need it"],
+         "responses": ["Ok, I'll bring my private jet.","What should we do there?", "What should I bring?","How will I get there?"],
          "context": [""]
         },
         {"tag": "philosophical",
